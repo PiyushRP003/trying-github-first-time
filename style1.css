@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+ /* margin: 0 auto; */
+ /* margin-top: 200px; */
+ /* text-align: center; */
+ background-color: rgb(189, 243, 243);
+ padding: 1rem 0;
+ text-align: center;
+ 
+ /* width: 55%; */
+}
+
+
+h1{
+    color: #143774;
+    font-size: 3.375rem;
+}
+p{
+    color: #0982c4;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.container{
+    width: 90%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+.conatiner-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nav{
+    margin-top: 12px;
+    /* display: inline-block; */
+    /* width: 90%; */
+    /* margin-left: 30px; */
+}
+
+.nav ul{
+    /* padding: 0; */
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+ .nav li{
+    /* padding: 12px; */
+    
+    margin: 0 1rem;
+     
+}
+.nav a{
+    font-weight: 600;
+    color: rgb(43, 39, 39);
+   text-decoration: none;
+}
+.nav a:hover,.nav a:focus{
+    color:#182024;
+    
+}
+
+main{
+    width: 75%;
+}
+aside{
+    width: 20%;
+}
+.current-page{
+    border-bottom: 1px solid rgb(59, 58, 58);
+}
+
+h1,h2,h3{
+    font-weight: 400;
+    color:143774 ;
+}
+
+.article-title{
+    font-size: 1.5rem;
+}
+
+.article-read-more , .article-info{
+    font-size: 0.875rem;
+}
+.article-read-more{
+    color: #1792d2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.article-body{
+    color: black;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.widget-body{
+    color: black;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
